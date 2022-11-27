@@ -8,12 +8,32 @@
         line-height: 22px;
         margin-left: 1.5rem;
     }
+
+    @media(max-width: 1200px) {
+        span {
+            font-size: 1.8rem;
+        }
+    }
+    
+    @media(max-width: 991px) {
+        justify-content: center;
+    }
+
+    @media(max-width: 560px) {
+        span {
+            font-size: 1.6rem;
+        }
+    }
 }
 
 h1 {
     font-weight: 700;
     font-size: 12rem;
     line-height: 97.5%;
+
+    @media(max-width: 1200px) {
+        font-size: 10rem;
+    }
 }
 
 h2 {
@@ -36,13 +56,16 @@ p {
     .image {
         position: relative;
         width: 100%;
-        height: 52rem;
+        height: 48rem;
         margin-bottom: 2.4rem;
         display: flex;
         justify-content: center;
         overflow: hidden;
 
         img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
             transition: transform .3s ease;
         }
 
@@ -85,6 +108,12 @@ p {
                 bottom: 6.2rem;
                 opacity: 1;
             }
+        }
+    }
+
+    @media(max-width: 991px) {
+        .image {
+            height: 44rem;
         }
     }
 }

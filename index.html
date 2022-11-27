@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>God of War Ragnarok</title>
+    <link rel="icon" type="image/ico" href="./favicon-img.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.min.css" />
 </head>
 
@@ -13,9 +15,9 @@
     <!--HEADER-->
     <header>
         <div class="container">
-            <img src="images/sony.svg" class="sony" alt="Logo Sony" />
-            <img src="images/logo.png" class="logo" alt="Logo God of War" />
-            <div class="platform">
+            <img src="images/sony.svg" class="sony" alt="Logo Sony" data-aos="fade-right" />
+            <img src="images/logo.png" class="logo" alt="Logo God of War" data-aos="zoom-in" />
+            <div class="platform" data-aos="fade-left">
                 <span>Disponível para</span>
                 <ul>
                     <li>PS4</li>
@@ -28,7 +30,7 @@
     <!--SECTION HERO-->
     <section class="s-hero">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="images/bullets.svg" alt="Bullets" />
                     <span>Lançamento dia 09/11/2022</span>
@@ -42,7 +44,7 @@
                 </h3>
             </div>
 
-            <div class="right">
+            <div class="right" data-aos="fade-up">
                 <span>Assista aos trailer</span>
                 <button>
                     <img src="images/thumbnail.gif" class="thumbnail" alt="Thumbnail do trailer" />
@@ -58,7 +60,7 @@
     </section>
 
     <!--SECTION INFO GERAL-->
-    <section class="s-info-geral">
+    <section class="s-info-geral" data-aos="fade-up">
         <div class="container">
             <ul>
                 <li>
@@ -92,7 +94,7 @@
     <!--SECTION STORY-->
     <section class="s-story">
         <div class="container">
-            <div class="left">
+            <div class="left" data-aos="fade-right">
                 <h3 class="subtitle">
                     <img src="images/bullets.svg" alt="Bullet" />
                     <span>Sony Interactive Entertainment</span>
@@ -107,7 +109,7 @@
                 </div>
             </div>
             
-            <img src="images/kratos-atreus.png" class="kratos-atreus" alt="Kratos e Atreus" />
+            <img src="images/kratos-atreus.png" class="kratos-atreus" alt="Kratos e Atreus" data-aos="fade-left" />
         </div>
     </section>
 
@@ -115,7 +117,7 @@
     <section class="s-characters">
         <div class="container">
             <div class="description">
-                <div class="left">
+                <div class="left" data-aos="fade-right">
                     <h3 class="subtitle">
                         <img src="images/bullets.svg" alt="Bullets" />
                         <span>Conheça os personsagens</span>
@@ -124,7 +126,7 @@
                     <p>Reviva o começo da jornada nórdica épica de Kratos e Atreus em Mitos de Midgard. Um alerta para quem não está familiarizado com God of War: spoilers à frente.</p>
                 </div>
 
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <img src="images/axel.png" alt="Machado Leviatã" />
                     <div class="text">
                         <img src="images/logo.png" alt="Logo do God of War Ragnarok" />
@@ -133,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="slide-characters">
+            <div class="slide-characters" data-aos="fade-up">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="card-character">
@@ -218,6 +220,7 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
